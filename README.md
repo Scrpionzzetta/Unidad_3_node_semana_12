@@ -3,13 +3,20 @@
 # 1.- Crear el proyecto en node
     Crear un proyecto con nodeJS, con el siguente
     comando en la terminal
-    ```
-    npm init -y
-    ```
-# 2.- Instalar Express
-    npm i express
 
-# 3.- Crearestructura de carpetaspara el proyecto:
+    npm init -y
+
+# 2.- Instalar Express
+    Realizar la instalacion de un paquete
+    de desarrollo:
+
+    npm install express
+
+# 3.- Crear estructura de carpetas para el proyecto:
+    -Primero definimos la carpeta madre(src)
+    -Crear el Main de la aplciación, que es el app.js
+    -Creamos dos carpetas, una es para el ruter(definir rutas) y la otra es para los middleware(puente).
+
     src/
     ----app.js <- Este es el main de la aplicación
     ----routes/
@@ -18,7 +25,10 @@
             ----logger.js
 
 # 4.- Creación de Logger.js
+    Creamos el puentes de la aplicación.
+
     logger.js
+    
 # 5.- Creaxcion de una ruta
     users.js
 # 6.- Creación del Main
