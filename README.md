@@ -5,8 +5,13 @@
     comando en la terminal
 
     npm init -y
+# 1.1.- Cuando Descargamos el proyecto de otro lado:
+    Vamos a usar el siguente comando para instalar dependencias de
+    NodeMules
 
-# 2.- Instalar Express
+    npm i
+
+# 2.- Instalar Express(para trabajar JavaScript como servidor)
     Realizar la instalacion de un paquete
     de desarrollo:
 
@@ -40,3 +45,32 @@
     app.js
     
 # 7.- 
+
+
+
+
+## Creacion del CRUD Extender un rato paso a paso nomas or el postman
+
+
+
+
+
+
+
+
+
+
+Paso 7: Arreglar el GET (con array completo de objetos)
+Paso 8: POST — crear usuario
+Paso 9: PUT — actualizar usuario
+Paso 10: DELETE — eliminar usuario
+
+siguente fase qla: modificacion en el Middleware para crear la validacipn
+
+Paso 11: validateUser.js — validar campos antes del POST/PUT
+
+Ultima fase: 
+como poder migrar a Json
+
+Paso 12: Crear users.json
+Paso 13: Adaptar users.js para usar fs
