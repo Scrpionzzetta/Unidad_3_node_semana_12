@@ -44,7 +44,41 @@
 
     app.js
     
-# 7.- 
+# 7.- Levantamos el servidor con el comando:
+    recordar que node es palabra reservada, el 
+    src es la ubicacion de la carpeta y el app.js es el main
+
+    node src/app.js
+
+# 8.- Verificamos las rutas cambiando el puerto
+    adempas agregamos una constante para reemplazar
+    el numero del puerto
+
+    const PORT = 3002;
+
+# 9.- Agregamos mas Usurios en las Rutas:
+    Para esto creamos un Array con dos usuarios nuervos
+    en src/routes/users.js
+
+# 10.- Instalacion de NodeMon:
+    Este Pakage hace que no tengamos que
+    bajar y levantar el servidor, se instala
+    con el siguente comando:
+
+    npm i -D nodemon
+
+# 11.- Cambiamos el metodo de levantar el servidor:
+    Ahora estamos ejecutando un Script, esto es gracias a 'nodemon'
+
+    npm run dev
+
+# 12 .- TAREA CON 1 DECIMA:
+    Crear un router llamado 
+    personajes_de_marvel_que_no_salen_en_peliculas_de_marvel.js,
+    y crear su ruta respectiva en el app.js, junto con un array
+    con un 4 valores que contenga:
+    {id, nombre, poder, edad_relativa}
+
 
 
 

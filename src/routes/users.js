@@ -1,4 +1,5 @@
 
+/*
 const express = require('express');
 const router = express.Router();
 
@@ -19,39 +20,43 @@ router.get('/:id',
     }
  );
 
-module.exports = router;
+module.exports = router;*/
 
 
-/*
-Modificacion para mostar mas datos
+
+//Modificacion para mostar más datos
 const express = require('express');
 const router = express.Router();
 
 // Base de datos temporal en memoria
 let users = [
-  { id: 1, nombre: 'Daniel', edad: 33 },
-  { id: 2, nombre: 'Franco', edad: 3 },
-  { id: 3, nombre: 'Salvador', edad: 99 },
+  { id: 1, nombre: 'Daniel Abraham', edad: 33 },
+  { id: 2, nombre: 'Franco Scalazzetta', edad: 3 },
+  { id: 3, nombre: 'Salvador lalapipo', edad: 99 },
 ];
 
-// GET /users — obtener todos
-router.get('/', (req, res) => {
-  res.json(users);
-});
+// GET /usuarios — obtener todos - GetAll
+router.get(
+  '/', (req, res) => {
+    res.json(users);
+  }
+);
 
-// GET /users/:id — obtener uno por id
+
+
+//GET 
 router.get('/:id', (req, res) => {
   const user = users.find(u => u.id === parseInt(req.params.id));
 
   if (!user) {
     return res.status(404).json({ error: 'Usuario no encontrado' });
   }
-
   res.json(user);
 });
 
+
 module.exports = router;
-*/
+
 
 
 

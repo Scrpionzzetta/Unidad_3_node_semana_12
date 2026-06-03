@@ -7,12 +7,13 @@ const app = express();
 app.use(express.json()); // leer JSON del body
 app.use(logger);
 
-
 // rutas
-app.use('/users', usersRouter);
+app.use('/usuario', usersRouter);
 
-app.listen(3000, 
-    () => {
-        console.log('hola');
+const PORT = 3002;
+
+app.listen(PORT,() => 
+    {
+        console.log('hola ', PORT);
     }
 );
